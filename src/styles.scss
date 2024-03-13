@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #E8E8E8;
+}
+
+/* Common */
+.my-grid {
+    display: grid;
+}
+.my-flex {
+    display: flex;
+}
+.my-items-center {
+    align-items: center;
+}
